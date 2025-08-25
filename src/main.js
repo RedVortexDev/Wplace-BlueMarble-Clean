@@ -163,7 +163,7 @@ GM_addStyle(cssOverlay);
 
 // Imports the Roboto Mono font family
 var stylesheetLink = document.createElement('link');
-stylesheetLink.href = 'https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap';
+stylesheetLink.href = 'https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap'; // BlueMarble-Clean - Change font
 stylesheetLink.rel = 'preload';
 stylesheetLink.as = 'style';
 stylesheetLink.onload = function () {

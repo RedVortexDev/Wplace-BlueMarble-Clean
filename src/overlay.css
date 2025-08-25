@@ -36,8 +36,9 @@ div#bm-overlay, div#bm-overlay-telemetry {
    * Linux fallback (DejaVu Sans Mono)
    * Any possible monospace font (monospace)
    * Last resort (Arial) */
-  font-family: 'Roboto Mono', 'Courier New', 'Monaco', 'DejaVu Sans Mono', monospace, 'Arial';
+  font-family: 'Hanken Grotesk', sans-serif; /* BlueMarble-Clean - Change font */
   letter-spacing: 0.05em;
+  font-optical-sizing: auto; /* BlueMarble-Clean - Change font */
 }
 
 /* The drag bar */
