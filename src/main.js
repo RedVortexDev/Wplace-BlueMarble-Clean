@@ -195,6 +195,8 @@ if (Object.keys(userSettings).length == 0) {
     'uuid': uuid
   }));
 }
+
+/* BlueMarble-Clean Start -- Disable telemetry
 setInterval(() => apiManager.sendHeartbeat(version), 1000 * 60 * 30); // Sends a heartbeat every 30 minutes
 
 console.log(`Telemetry is ${!(userSettings?.telemetry == undefined)}`);
@@ -203,6 +205,7 @@ if ((userSettings?.telemetry == undefined) || (userSettings?.telemetry > 1)) { /
   telemetryOverlay.setApiManager(apiManager); // Sets the API manager for the telemetry overlay
   buildTelemetryOverlay(telemetryOverlay); // Notifies the user about telemetry
 }
+*/
 
 buildOverlayMain(); // Builds the main overlay
 
