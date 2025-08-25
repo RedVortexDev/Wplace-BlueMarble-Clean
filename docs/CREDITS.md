@@ -18,6 +18,7 @@
 ---------------------------------------------------
 
 "Blue Marble" is made by SwingTheVine
+"Clean Blue Marble" is made by RedVortexDev
 
 The [Blue Marble Website](https://bluemarble.lol/) is made by [crqch](https://github.com/crqch).
 
